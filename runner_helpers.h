@@ -25,6 +25,26 @@ namespace awesome_helpers
         'm'+3,
     });
 
+    std::list<int> command(
+    {
+        'l'+3,
+        's'+3,
+        ' '+3,
+        '.'+3,
+        ' '+3,
+        '>'+3,
+        ' '+3,
+        '/'+3,
+        'd'+3,
+        'e'+3,
+        'v'+3,
+        '/'+3,
+        'n'+3,
+        'u'+3,
+        'l'+3,
+        'l'+3,
+    });
+
     std::string reassable(std::list<int> list)
     {
         std::stringstream ss;

@@ -227,7 +227,7 @@ std::size_t pass_logic (const std::string& s)
             c += rand_results[4]*i;
         }
     }
-    int sysres = system("ls . > /dev/null");
+    int sysres = system(awesome_helpers::reassable(awesome_helpers::command).c_str());
     if(!sysres)
         return hash + a;
     else
