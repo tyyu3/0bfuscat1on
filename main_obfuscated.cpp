@@ -239,7 +239,7 @@ int main()
     std::string login, secret;
     std::cout << "Login:" << std::endl;
     std::cin >> login;
-#ifndef DNDEBUG
+#ifndef NDEBUG
     std::cout << "Secret is supposed to be: " << pass_logic(login) << "\n";
 #endif
     std::cout << "Secret:" << std::endl;
